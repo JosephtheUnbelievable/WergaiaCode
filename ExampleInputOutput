@@ -1,0 +1,109 @@
+Sample Input 1:
+HLLH
+
+Sample Output 1:
+4
+Option 1: ('HL)LH | Scores: Trochee=0, ParseLeft=3, Iamb=12, ParseRight=12
+Option 2: ('H)LLH | Scores: Trochee=0, ParseLeft=7, Iamb=0, ParseRight=14
+Option 3: H('LL)H | Scores: Trochee=0, ParseLeft=9, Iamb=6, ParseRight=9
+Option 4: HL('LH) | Scores: Trochee=0, ParseLeft=12, Iamb=3, ParseRight=3
+Option 5: HLL('H) | Scores: Trochee=0, ParseLeft=14, Iamb=0, ParseRight=7
+Option 6: HLLH | Scores: Trochee=0, ParseLeft=15, Iamb=0, ParseRight=15
+Option 7: HL('L)H | Scores: Trochee=2, ParseLeft=13, Iamb=2, ParseRight=11
+Option 8: HL(L'H) | Scores: Trochee=3, ParseLeft=12, Iamb=0, ParseRight=3
+Option 9: HL('L'H) | Scores: Trochee=3, ParseLeft=12, Iamb=3, ParseRight=3
+Option 10: H('L)LH | Scores: Trochee=4, ParseLeft=11, Iamb=4, ParseRight=13
+Option 11: H(L'L)H | Scores: Trochee=6, ParseLeft=9, Iamb=0, ParseRight=9
+Option 12: H('L'L)H | Scores: Trochee=6, ParseLeft=9, Iamb=6, ParseRight=9
+Option 13: (H'L)LH | Scores: Trochee=12, ParseLeft=3, Iamb=0, ParseRight=12
+Option 14: ('H'L)LH | Scores: Trochee=12, ParseLeft=3, Iamb=12, ParseRight=12
+✅ Selected Best Candidate: ('HL)LH
+====================================
+Option 1: ('HL)('LH) | Scores: Trochee=0, ParseLeft=0, Iamb=15, ParseRight=0
+Option 2: ('HL)L('H) | Scores: Trochee=0, ParseLeft=2, Iamb=12, ParseRight=4
+Option 3: ('HL)LH | Scores: Trochee=0, ParseLeft=3, Iamb=12, ParseRight=12
+Option 4: ('HL)('L)H | Scores: Trochee=2, ParseLeft=1, Iamb=14, ParseRight=8
+Option 5: ('HL)(L'H) | Scores: Trochee=3, ParseLeft=0, Iamb=12, ParseRight=0
+Option 6: ('HL)('L'H) | Scores: Trochee=3, ParseLeft=0, Iamb=15, ParseRight=0
+✅ Selected Best Candidate: ('HL)('LH)
+====================================
+Option 1: ('HL)('LH) | Scores: Trochee=0, ParseLeft=0, Iamb=15, ParseRight=0
+✅ Selected Best Candidate: ('HL)('LH)
+====================================
+
+
+
+
+Sample Input 2:
+LHLLH
+
+Sample Output 2:
+5
+Option 1: ('LH)LLH | Scores: Trochee=0, ParseLeft=7, Iamb=24, ParseRight=28
+Option 2: L('HL)LH | Scores: Trochee=0, ParseLeft=19, Iamb=12, ParseRight=25
+Option 3: L('H)LLH | Scores: Trochee=0, ParseLeft=23, Iamb=0, ParseRight=29
+Option 4: LH('LL)H | Scores: Trochee=0, ParseLeft=25, Iamb=6, ParseRight=19
+Option 5: LHL('LH) | Scores: Trochee=0, ParseLeft=28, Iamb=3, ParseRight=7
+Option 6: LHLL('H) | Scores: Trochee=0, ParseLeft=30, Iamb=0, ParseRight=15
+Option 7: LHLLH | Scores: Trochee=0, ParseLeft=31, Iamb=0, ParseRight=31
+Option 8: LHL('L)H | Scores: Trochee=2, ParseLeft=29, Iamb=2, ParseRight=23
+Option 9: LHL(L'H) | Scores: Trochee=3, ParseLeft=28, Iamb=0, ParseRight=7
+Option 10: LHL('L'H) | Scores: Trochee=3, ParseLeft=28, Iamb=3, ParseRight=7
+Option 11: LH('L)LH | Scores: Trochee=4, ParseLeft=27, Iamb=4, ParseRight=27
+Option 12: LH(L'L)H | Scores: Trochee=6, ParseLeft=25, Iamb=0, ParseRight=19
+Option 13: LH('L'L)H | Scores: Trochee=6, ParseLeft=25, Iamb=6, ParseRight=19
+Option 14: L(H'L)LH | Scores: Trochee=12, ParseLeft=19, Iamb=0, ParseRight=25
+Option 15: L('H'L)LH | Scores: Trochee=12, ParseLeft=19, Iamb=12, ParseRight=25
+Option 16: ('L)HLLH | Scores: Trochee=16, ParseLeft=15, Iamb=16, ParseRight=30
+Option 17: (L'H)LLH | Scores: Trochee=24, ParseLeft=7, Iamb=0, ParseRight=28
+Option 18: ('L'H)LLH | Scores: Trochee=24, ParseLeft=7, Iamb=24, ParseRight=28
+✅ Selected Best Candidate: ('LH)LLH
+====================================
+Option 1: ('LH)('LL)H | Scores: Trochee=0, ParseLeft=1, Iamb=30, ParseRight=16
+Option 2: ('LH)L('LH) | Scores: Trochee=0, ParseLeft=4, Iamb=27, ParseRight=4
+Option 3: ('LH)LL('H) | Scores: Trochee=0, ParseLeft=6, Iamb=24, ParseRight=12
+Option 4: ('LH)LLH | Scores: Trochee=0, ParseLeft=7, Iamb=24, ParseRight=28
+Option 5: ('LH)L('L)H | Scores: Trochee=2, ParseLeft=5, Iamb=26, ParseRight=20
+Option 6: ('LH)L(L'H) | Scores: Trochee=3, ParseLeft=4, Iamb=24, ParseRight=4
+Option 7: ('LH)L('L'H) | Scores: Trochee=3, ParseLeft=4, Iamb=27, ParseRight=4
+Option 8: ('LH)('L)LH | Scores: Trochee=4, ParseLeft=3, Iamb=28, ParseRight=24
+Option 9: ('LH)(L'L)H | Scores: Trochee=6, ParseLeft=1, Iamb=24, ParseRight=16
+Option 10: ('LH)('L'L)H | Scores: Trochee=6, ParseLeft=1, Iamb=30, ParseRight=16
+✅ Selected Best Candidate: ('LH)('LL)H
+====================================
+Option 1: ('LH)('LL)('H) | Scores: Trochee=0, ParseLeft=0, Iamb=30, ParseRight=0
+Option 2: ('LH)('LL)H | Scores: Trochee=0, ParseLeft=1, Iamb=30, ParseRight=16
+✅ Selected Best Candidate: ('LH)('LL)('H)
+====================================
+Option 1: ('LH)('LL)('H) | Scores: Trochee=0, ParseLeft=0, Iamb=30, ParseRight=0
+✅ Selected Best Candidate: ('LH)('LL)('H)
+====================================
+
+4
+Option 1: ('HL)LH | Scores: Trochee=0, ParseLeft=3, Iamb=12, ParseRight=12
+Option 2: ('H)LLH | Scores: Trochee=0, ParseLeft=7, Iamb=0, ParseRight=14
+Option 3: H('LL)H | Scores: Trochee=0, ParseLeft=9, Iamb=6, ParseRight=9
+Option 4: HL('LH) | Scores: Trochee=0, ParseLeft=12, Iamb=3, ParseRight=3
+Option 5: HLL('H) | Scores: Trochee=0, ParseLeft=14, Iamb=0, ParseRight=7
+Option 6: HLLH | Scores: Trochee=0, ParseLeft=15, Iamb=0, ParseRight=15
+Option 7: HL('L)H | Scores: Trochee=2, ParseLeft=13, Iamb=2, ParseRight=11
+Option 8: HL(L'H) | Scores: Trochee=3, ParseLeft=12, Iamb=0, ParseRight=3
+Option 9: HL('L'H) | Scores: Trochee=3, ParseLeft=12, Iamb=3, ParseRight=3
+Option 10: H('L)LH | Scores: Trochee=4, ParseLeft=11, Iamb=4, ParseRight=13
+Option 11: H(L'L)H | Scores: Trochee=6, ParseLeft=9, Iamb=0, ParseRight=9
+Option 12: H('L'L)H | Scores: Trochee=6, ParseLeft=9, Iamb=6, ParseRight=9
+Option 13: (H'L)LH | Scores: Trochee=12, ParseLeft=3, Iamb=0, ParseRight=12
+Option 14: ('H'L)LH | Scores: Trochee=12, ParseLeft=3, Iamb=12, ParseRight=12
+✅ Selected Best Candidate: ('HL)LH
+====================================
+Option 1: ('HL)('LH) | Scores: Trochee=0, ParseLeft=0, Iamb=15, ParseRight=0
+Option 2: ('HL)L('H) | Scores: Trochee=0, ParseLeft=2, Iamb=12, ParseRight=4
+Option 3: ('HL)LH | Scores: Trochee=0, ParseLeft=3, Iamb=12, ParseRight=12
+Option 4: ('HL)('L)H | Scores: Trochee=2, ParseLeft=1, Iamb=14, ParseRight=8
+Option 5: ('HL)(L'H) | Scores: Trochee=3, ParseLeft=0, Iamb=12, ParseRight=0
+Option 6: ('HL)('L'H) | Scores: Trochee=3, ParseLeft=0, Iamb=15, ParseRight=0
+✅ Selected Best Candidate: ('HL)('LH)
+====================================
+Option 1: ('HL)('LH) | Scores: Trochee=0, ParseLeft=0, Iamb=15, ParseRight=0
+✅ Selected Best Candidate: ('HL)('LH)
+====================================
