@@ -1,0 +1,1 @@
+*This coding example does not include secondary stresses (so all the stresses look like primary stresses in the output) as it is not the main focus of this paper. I'll probably modify to include this feature later on. 
