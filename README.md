@@ -126,5 +126,3 @@ Notes:
 └── README.md                   # This file
 ```
 
-## License
-Choose a license (e.g., MIT) and add a LICENSE file if you plan to share code publicly.
